@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
+header {
+    height: 550px;
+    background-color: wheat;
+    background-image: url('../img/banner.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.foto-carnet {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: right;
+
+}
+
+div.foto-carnet img {
+    margin-right: 40px;
+    height: 200px;
+}
+
+div.foto-carnet span {
+    text-align: left;
+}
+
+h1,
+h3 {
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family: 'Inconsolata', monospace;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    padding: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+span.fecha {
+    font-weight: 600;
+}
+
+footer p,
+a {
+    background: #005677;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.2em;
+}
+
+footer p i {
+    margin-left: 10px;
+}
+
+dd {
+    margin-left: 80px;
+}
